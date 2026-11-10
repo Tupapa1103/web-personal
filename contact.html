@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Contacto | Luis Angel Charry Porras</title>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo"><span class="logo-mark">LC</span><span class="logo-name">Luis Angel Charry</span></a>
+    <nav id="main-nav">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="about.html">Acerca de</a></li>
+        <li><a href="projects.html">Proyectos</a></li>
+        <li><a href="contact.html" class="active">Contacto</a></li>
+      </ul>
+    </nav>
+    <button id="mobile-menu" class="menu-toggle" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <h1>Contacto</h1>
+      <p>Escríbeme para colaborar o conversar sobre una oportunidad</p>
+    </section>
+
+    <section class="contact-section">
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h2>Hablemos</h2>
+          <p>Puedes escribirme por correo, llamarme o usar el formulario.</p>
+          <div class="info-item">
+            <h3>Correo</h3>
+            <a href="mailto:charry.po.luisangel@gmail.com">charry.po.luisangel@gmail.com</a>
+          </div>
+          <div class="info-item">
+            <h3>Teléfono</h3>
+            <a href="tel:+573164758124">+57 3164758124</a>
+          </div>
+          <div class="info-item">
+            <h3>Estudios</h3>
+            <p>Ingeniería Informática, Universidad Autónoma de Occidente</p>
+          </div>
+        </div>
+
+        <div class="contact-form reveal">
+          <h2>Envíame un mensaje</h2>
+          <form action="mailto:charry.po.luisangel@gmail.com?subject=Contacto desde tu portafolio" method="post" enctype="text/plain">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="Nombre" autocomplete="name" required>
+              </div>
+              <div class="form-group">
+                <label for="correo">Correo</label>
+                <input type="email" id="correo" name="Correo" autocomplete="email" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="asunto">Asunto</label>
+              <input type="text" id="asunto" name="Asunto" required>
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="Mensaje" required></textarea>
+            </div>
+            <button type="submit" class="btn primary">Enviar mensaje</button>
+            <p class="form-note">Al enviar se abrirá tu aplicación de correo con el mensaje listo.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Contacto</h3>
+        <p>charry.po.luisangel@gmail.com</p>
+        <p>+57 3164758124</p>
+      </div>
+      <div class="footer-section">
+        <h3>Enlaces</h3>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="about.html">Acerca de</a></li>
+          <li><a href="projects.html">Proyectos</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Sígueme</h3>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/xx.l_acp.om?obrf=MTgzN3Zocjd4cWVyNg%3D%3D&utm_source=qr" class="social-icon" aria-label="Instagram">IG</a>
+          <a href="https://github.com/luissss-del" class="social-icon" aria-label="GitHub">GH</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>&copy; 2026 Luis Angel Charry Porras. Todos los derechos reservados.</p></div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
